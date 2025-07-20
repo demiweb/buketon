@@ -21,7 +21,10 @@
             <div class="header-top__cont">
                 <div class="header-top__menu">
                     <ul>
-                        <li><a href="">доставка та оплата</a></li>
+                        <li>
+                            <a href="">доставка та оплата</a>
+
+                        </li>
                         <li><a href="">Подарунковий сертифікат</a></li>
                         <li><a href="">про нас</a></li>
                         <li><a href="">Контакти</a></li>
@@ -51,7 +54,14 @@
                 <div class="header-menu">
                     <div class="menu">
                         <ul>
-                            <li><a href="">для неї</a></li>
+                            <li class="menu-item-has-children">
+                                <a href="">для неї</a>
+                                <ul>
+                                    <li><a href="">Доставка</a></li>
+                                    <li><a href="">Оплата</a></li>
+
+                                </ul>
+                            </li>
                             <li><a href="">для нього</a></li>
                             <li><a href="">для свята</a></li>
                             <li><a href="">Аперитиво-набір</a></li>
@@ -106,6 +116,7 @@
                         </div>
                     </a>
                     <a href="" class="header-link header-link--cart">
+                        <!--   class: active -->
                         <span>5</span>
                         <div class="ic">
                             <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
@@ -127,7 +138,6 @@
 
                 </div>
             </div>
-
 
 
         </div>
@@ -187,11 +197,13 @@
                             <div class="swiper">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
-                                        <!-- може бути і ютуб, і просто відео. завжди першим -->
-                                        <a href="https://www.youtube.com/embed/dQw4w9WgXcQ?si=pha9O8q4H_JjqyWP"
-                                           data-fancybox="gallery" class="img img--video">
-                                            <img src="./img/prodi1.jpg" alt="">
-                                        </a>
+                                        <!-- просто відео. завжди першим -->
+                                        <div class="img img--video">
+                                            <div class="pl-btn" href="./img/vid1.mp4" data-fancybox="video"></div>
+                                            <video class="desk-only" width="100%" src="./img/vid1.mp4" autoplay muted loop playsinline
+                                                   type="video/mp4"></video>
+                                            <img class="mob-only" src="./img/prodi1.jpg" alt="">
+                                        </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="./img/prodi2.jpg" data-fancybox="gallery" class="img">
@@ -458,7 +470,8 @@
                                 </div>
                                 <div class="input-wrap">
                                     <label for="">Текст для подарункової листівки:</label>
-                                    <textarea name="" id="" cols="30" rows="10" placeholder="Напишіть тут кілька слів, які зроблять момент ще особливішим..."></textarea>
+                                    <textarea name="" id="" cols="30" rows="10"
+                                              placeholder="Напишіть тут кілька слів, які зроблять момент ще особливішим..."></textarea>
                                 </div>
 
                                 <div class="product-page__control">
@@ -519,7 +532,8 @@
                                     <div class="prod-del">
                                         <div class="txt">
                                             <span>Доставка по Києву та області (до 15 км) <br>Кур'єром на таксі — до 2000 грн</span>
-                                            <p>Зробіть замовлення на суму від 2000 грн, і ми привеземо свято безкоштовно.</p>
+                                            <p>Зробіть замовлення на суму від 2000 грн, і ми привеземо свято
+                                                безкоштовно.</p>
                                         </div>
                                         <div class="r">
                                             <span>Безкоштовно</span>
