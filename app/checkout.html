@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="uk" dir="ltr">
+<head>
+    //= details/head.html
+</head>
+<body>
+//= details/header.html
+<main>
+
+    <div class="breadcrumbs-block">
+        <div class="container">
+            <ul class="breadcrumbs">
+                <li><a href="">BUKETON ❤️</a></li>
+                <li><a href="">Свято в букеті</a></li>
+                <li><span>Подарунковий сертифікат</span></li>
+            </ul>
+        </div>
+    </div>
+    <section class="checkout-page">
+        <div class="container">
+            <div class="checkout-page__cont">
+                <span class="minttl">Оформлення замовлення</span>
+                <div class="checkout-page__form">
+                    <form action="">
+                        <div class="checkout-page__part">
+                            <span class="checkout-title">Ваші дані</span>
+                            <div class="checkout-page__inputs">
+                                <div class="input-wrap required">
+                                    <label for="">Ім’я</label>
+                                    <span class="woocommerce-input-wrapper">
+                                        <input type="text" placeholder="Наприклад, Ольга.." required>
+                                    </span>
+                                </div>
+                                <div class="input-wrap input-tel required">
+                                    <label for="">Ваш телефон</label>
+                                    <span class="woocommerce-input-wrapper">
+                                        <input type="tel" placeholder="+380(__)___-__-__" required>
+                                    </span>
+                                </div>
+                                <div class="input-wrap required">
+                                    <label for="">Ваш Email</label>
+                                    <span class="woocommerce-input-wrapper">
+                                        <input type="email" placeholder="hello@gmail.com" required>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-form__other-address">
+                            <div class="input-checkbox">
+                                <input type="checkbox">
+                                <span class="checkbox-text">Інший отримувач?</span>
+                            </div>
+                        </div>
+                        <div class="checkout-page__part shipping_person">
+                            <span class="checkout-title">Дані отримувача</span>
+                            <div class="checkout-page__inputs">
+                                <div class="input-wrap required">
+                                    <label for="">Ім’я</label>
+                                    <span class="woocommerce-input-wrapper">
+                                        <input type="text" placeholder="Наприклад, Ольга.." required>
+                                    </span>
+                                </div>
+                                <div class="input-wrap input-tel required">
+                                    <label for="">Ваш телефон</label>
+                                    <span class="woocommerce-input-wrapper">
+                                        <input type="tel" placeholder="+380(__)___-__-__" required>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="checkout-page__part">
+                            <span class="checkout-title">Спосіб доставки</span>
+                            <div class="checkout-page__radios">
+                                <div class="input-radio">
+                                    <input type="radio" name="del" id="del1" checked>
+                                    <label for="del1">
+                                        <div class="ic">
+                                            <img src="./img/deli1.svg" alt="">
+                                        </div>
+                                        <div class="txt">
+                                            <span>Доставка по Києву та області (до 15 км)</span>
+                                            <p>Безкоштовно</p>
+                                        </div>
+                                    </label>
+
+                                </div>
+                                <div class="input-radio">
+                                    <input type="radio" name="del" id="del2">
+                                    <label for="del2">
+                                        <div class="ic">
+                                            <img src="./img/deli2.svg" alt="">
+                                        </div>
+                                        <div class="txt">
+                                            <span>Самовивіз з магазину</span>
+                                            <p>Безкоштовно</p>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="checkout-page__inputs">
+                                <div class="input-wrap required">
+                                    <label for="">Ваша адреса</label>
+                                    <span class="woocommerce-input-wrapper">
+                                        <input type="text" placeholder="Наприклад, Київ, вул. Тестова 47, 1 підїзд"
+                                               required>
+                                    </span>
+                                </div>
+                                <div class="input-wrap">
+                                    <label for="">Комментар</label>
+                                    <span class="woocommerce-input-wrapper">
+                                        <input type="text" placeholder="Потрібно щось додати для курьера?">
+                                    </span>
+                                </div>
+                                <div class="input-wrap">
+                                    <label for="">Оберіть бажану дату</label>
+                                    <span class="woocommerce-input-wrapper">
+                                        <input type="text" placeholder="Наприклад, 16 червня в 10 ранку">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkout-page__part">
+                            <span class="checkout-title">Спосіб оплати</span>
+                            <div class="checkout-page__radios">
+                                <div class="input-radio">
+                                    <label for="delp1">
+                                        <div class="ic">
+                                            <img src="./img/deli3.svg" alt="">
+                                        </div>
+                                        <div class="txt">
+                                            <span>Оплата картою VISA/Mastercard</span>
+                                        </div>
+                                    </label>
+                                    <input type="radio" name="delp" id="delp1" checked>
+                                </div>
+                                <div class="input-radio">
+                                    <input type="radio" name="delp" id="delp2">
+                                    <label for="delp2">
+                                        <div class="ic">
+                                            <img src="./img/deli4.svg" alt="">
+                                        </div>
+                                        <div class="txt">
+                                            <span>Готівкою</span>
+                                            <p><small>Потрібна предоплата у розмірі 50% від вартості замовлення</small>
+                                            </p>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkout-page__part">
+                            <div class="thanks-page__order">
+                                <span class="checkout-title">Ваше замовлення</span>
+                                <div class="thanks-page__order-items">
+                                    <div class="order-items">
+                                        <a href="" class="img">
+                                            <img src="./img/prd1.jpg" alt="">
+                                        </a>
+                                        <div class="txt">
+                                            <a href="">N°17 Out of Time — Смак поза часом</a>
+                                            <p>Артикул: 3764</p>
+                                            <p>Пакування: Градієнт тіффані</p>
+                                            <div class="prc">
+                                                <p>2 шт</p>
+                                                <p>1229 грн</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="order-items">
+                                        <a href="" class="img">
+                                            <img src="./img/prd1.jpg" alt="">
+                                        </a>
+                                        <div class="txt">
+                                            <a href="">N°17 Out of Time — Смак поза часом</a>
+                                            <p>Артикул: 3764</p>
+                                            <p>Пакування: Градієнт тіффані</p>
+                                            <div class="prc">
+                                                <p>2 шт</p>
+                                                <p>1229 грн</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cart-lines">
+                                    <div class="cart-lines__line">
+                                        <div>2 товар на суму:</div>
+                                        <span>6430 грн</span>
+                                    </div>
+                                    <div class="cart-lines__line cart-lines__promo">
+                                        <div>Промокод: <p>CX22440</p></div>
+                                        <span>- 400 грн</span>
+                                    </div>
+                                    <div class="cart-lines__line cart-lines__total">
+                                        <div>Разом:</div>
+                                        <span>6430 грн</span>
+                                    </div>
+                                </div>
+                                <div class="checkout-page__final">
+                                    <button class="btn"><p>оформити замовлення</p></button>
+                                    <div class="promocode">
+                                        <p>Активуйте сертифікат BUKETON ❤️</p>
+                                        <div class="checkout_coupon woocommerce-form-coupon">
+                                            <div class="input">
+                                                <input type="text" name="coupon_code" class="input-text"
+                                                       placeholder="Введіть номер або код сертифіката" id="coupon_code"
+                                                       value="">
+                                            </div>
+                                            <div class="wrap_button">
+                                                <button name="apply_coupon" value="" type="submit"
+                                                        class="btn btn--black coupon_submit">
+                                                    <p>Застосувати</p>
+                                                </button>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="checkout-part_error">
+                                        <div class="woocommerce-NoticeGroup woocommerce-NoticeGroup-checkout">
+                                            <div role="alert">
+                                                <ul class="woocommerce-error" tabindex="-1">
+                                                    <li>Сертифікат не знайдено. Перевірте код</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cart-page__delivery">
+                                        <p>Безкоштовна доставка при замовленні <strong>від 2000 грн</strong></p>
+                                        <div class="ic">
+                                            <img src="./img/deliveryicon.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+//= details/footer.html
+//= details/scripts.html
+</body>
+</html>
